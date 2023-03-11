@@ -1,6 +1,6 @@
 # This is a RESTful Api
 
-**T**his api can be used to create, update, delete and get users informations 
+**T**his api can be used to _create_, _update_, _delete_ and get users informations 
 through a RESTful Api. Here, the main user fields are :
 
 * _id_
@@ -11,7 +11,7 @@ through a RESTful Api. Here, the main user fields are :
 * _createdAt_
 * _updatedAt_
 
-**H**ere, the ids, createdAt and updatedAt are auto generated. And other fields
+**H**ere, the _id_, _createdAt_ and _updatedAt_ are auto generated. And other fields
 are by default set to null values.
 
 **T**he tools that are used in this project are:
