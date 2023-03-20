@@ -64,6 +64,7 @@ public class UserServiceImpl implements UserService{
         Optional<User> Userdb = this.userRepository.findById(uidDel);        
         if(Userdb.isPresent()) {
             this.userRepository.delete(Userdb.get());
+            
         }
         else{
             throw new UserNotFound("Record not found for id: " + uidDel);

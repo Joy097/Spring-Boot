@@ -40,6 +40,9 @@ public class User{
         return id;
     }
     public void setId(long id) {
+        if (id == 0){
+            return;
+        }
         this.id = id;
     }
 
@@ -48,6 +51,9 @@ public class User{
         return firstName;
     }
     public void setFirstName(String firstName) {
+        if (firstName == null){
+            return;
+        }
         this.firstName = firstName;
     }
 
@@ -56,6 +62,9 @@ public class User{
         return lastName;
     }
     public void setLastName(String lastName) {
+        if (lastName == null){
+            return;
+        }
         this.lastName = lastName;
     }
 
@@ -64,6 +73,9 @@ public class User{
         return age;
     }
     public void setAge(int age) {
+        if (age == 0) {
+            return;
+        }
         this.age = age;
     }
 
@@ -72,6 +84,9 @@ public class User{
         return email;
     }
     public void setEmail(String email) {
+        if (email == null ) {
+            return;
+        }
         this.email = email;
     }
 
